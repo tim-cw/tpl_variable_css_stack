@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exercice Grid ou Flexbox</title>
+
+        <link rel="stylesheet" href="styles/main.css" />
+
+        <script src="scripts/main.js" defer></script>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="wrapper">
+                <h1><span>Grid</span> ou <span>flexbox</span></h1>
+            </div>
+        </header>
+        <section class="number number-1">
+            <div class="wrapper">
+                <header class="number__header">
+                    <h2>Numéro 1 - Un menu</h2>
+                    <p>Dans ce numéro vous devez reproduire un menu classique. Flexbox ou grid? À vous de voir.</p>
+                    <img src="assets/images/screen_number1.png" alt="capture du numéro 1" class="number__capture" />
+                    <h3>INDICATION</h3>
+                    <ul>
+                        <li>
+                            <h4>Logo</h4>
+                            <ul>
+                                <li>Grandeur: 44px</li>
+                                <li>Bold</li>
+                                <li>Italic</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Item de menu</h4>
+                            <ul>
+                                <li>espace entre chacun 20px</li>
+                                <li>couleur : blanc</li>
+                                <li>couleur d'hover : #6aa84f</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Bouton</h4>
+                            <ul>
+                                <li>marge à gauche: 50px;</li>
+                                <li>Bordure 2px #6aa84f et solid</li>
+                                <li>marge interne h/b 5px, d/g 20px</li>
+                                <li>hover background blanc</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </header>
+                <div class="number__content">
+                    <nav class="nav--main">
+                        <a href="#" class="nav__brand">Logo</a>
+                        <div class="nav__container">
+                            <ul>
+                                <li><a href="#" class="nav__item">Menu 1</a></li>
+                                <li><a href="#" class="nav__item">Menu 2</a></li>
+                                <li><a href="#" class="nav__item">Menu 3</a></li>
+                                <li><a href="#" class="nav__item">Menu 4</a></li>
+                                <li><a href="#" class="nav__item">Menu 5</a></li>
+                            </ul>
+                            <a href="#" class="button">Acheter</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="number number-2">
+            <div class="wrapper">
+                <header class="number__header">
+                    <h2>Numéro 2 - Les cartes</h2>
+                    <p>
+                        Un module composante que nous utilisons régulièrement est celui des "cards"/cartes. Vous devez
+                        faire en sorte qu'il soit sur ligne de 3 colonnes.
+                    </p>
+                    <img src="assets/images/screen_number2.png" alt="capture du numéro 2" class="number__capture" />
+                    <h3>INDICATION</h3>
+                    <ul>
+                        <li class="full">❌ Vous n'avez pas le droit de mettre de width sur vos cartes.</li>
+                        <li>
+                            <h4>HTML</h4>
+                            <ul>
+                                <li>Faire le html des cartes</li>
+                                <li>Le contenu vous est fourni</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Mise en page</h4>
+                            <ul>
+                                <li>3 colonnes de la même hauteur</li>
+                                <li>Espace entre chaque 30px</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>zone media</h4>
+                            <ul>
+                                <li>hauteur: 250px</li>
+                                <li>l'image doit s'étirer de manière optimal (google : object-fit )</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>zone contenu</h4>
+                            <ul>
+                                <li>background blanc</li>
+                                <li>marge interne h/b/d/g 20px</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </header>
+                <div class="number__content">
+                    <div class="cards">
+                        <a href="" class="card">
+                            <div class="card__media">
+                                <img src="assets/images/plage1.jpg" alt="Image de plage" />
+                            </div>
+                            <div class="card__content">
+                                <div>
+                                    <h2>Oahu, Hawaii</h2>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur expedita,
+                                        saepe accusantium rem eum ab eveniet explicabo facere.
+                                    </p>
+                                </div>
+                                <span>Voir plus</span>
+                            </div>
+                        </a>
+                        <a href="" class="card">
+                            <div class="card__media">
+                                <img src="assets/images/plage2.jpg" alt="Image de plage" />
+                            </div>
+                            <div class="card__content">
+                                <div>
+                                    <h2>Oahu, Hawaii</h2>
+                                </div>
+                                <span>Voir plus</span>
+                            </div>
+                        </a>
+                        <a href="" class="card">
+                            <div class="card__media">
+                                <img src="assets/images/plage3.jpg" alt="Image de plage" />
+                            </div>
+                            <div class="card__content">
+                                <div>
+                                    <h2>Oahu, Hawaii</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae animi
+                                        assumenda autem suscipit molestias obcaecati eius iure, veniam magni officiis
+                                        laborum quam. Reiciendis, minus aliquam ea nam, omnis doloremque quas
+                                        repudiandae, unde aut perspiciatis soluta.
+                                    </p>
+                                </div>
+
+                                <span>Voir plus</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="number number-3">
+            <div class="wrapper">
+                <header class="number__header">
+                    <h2>Numéro #3 - Images</h2>
+                    <p>
+                        Flexbox ou grid? Une des deux techniques est idéale pour faire la mise en page d'image de
+                        gallerie de manière plus styler.
+                    </p>
+                    <img src="assets/images/screen_number3.png" alt="capture du numéro 3" class="number__capture" />
+                    <h3>INDICATION</h3>
+                    <ul>
+                        <li>
+                            <h4>Mise en page</h4>
+                            <ul>
+                                <li>2 colonnes de la même largeur</li>
+                                <li>Espace entre chaque colonnes 30px</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>1<sup>er</sup> image</h4>
+                            <ul>
+                                <li>Doit s'étirer de manière optimal (google : object-fit )</li>
+                                <li>Doit prendre toute la largeur (indice: 1 / -1)</li>
+                                <li>hauteur: 400px</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>2<sup>eme</sup> et 3<sup>eme</sup> images</h4>
+                            <ul>
+                                <li>Doit s'étirer de manière optimal (google : object-fit )</li>
+                                <li>hauteur: 200px</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </header>
+                <div class="number__content">
+                    <div class="grid grid-2">
+                        <img src="assets/images/japon2.jpg" alt="Japon" />
+                        <img src="assets/images/japon1.jpg" alt="Japon" />
+                        <img src="assets/images/japon3.jpg" alt="Japon" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="number number-4">
+            <div class="wrapper">
+                <header class="number__header">
+                    <h2>Numéro 4 - Monstres</h2>
+                    <p>
+                        Flexbox ou grid? Mise en page encore une fois très générale et souvent utilisée. Vous devez
+                        faire en sorte d'avoir deux rangées de 4 colonnes
+                    </p>
+                    <img src="assets/images/screen_number4.png" alt="capture du numéro 4" class="number__capture" />
+                    <h3>INDICATION</h3>
+                    <ul>
+                        <li class="full">❌ Vous n'avez pas le droit de mettre de width sur vos colonnes.</li>
+                        <li>
+                            <h4>HTML</h4>
+                            <ul>
+                                <li>Faire le html</li>
+                                <li>Le contenu vous est fourni</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Mise en page</h4>
+                            <ul>
+                                <li>4 colonnes avec la même largeur et le contenu centré</li>
+                                <li>Espace entre chaque 60px</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Images</h4>
+                            <ul>
+                                <li>largeur: 40%</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </header>
+                <div class="number__content">
+                    <div class="halloween">
+                        <div class="monster">
+                            <img src="assets/images/death.svg" alt="death" />
+                            <h2>La mort</h2>
+                        </div>
+                        <div class="monster">
+                            <img src="assets/images/dracula.svg" alt="dracula" />
+                            <h2>Dracula</h2>
+                        </div>
+                        <div class="monster">
+                            <img src="assets/images/jason.svg" alt="jason" />
+                            <h2>Jason</h2>
+                        </div>
+                        <div class="monster">
+                            <img src="assets/images/frank.svg" alt="frank" />
+                            <h2>Frankenstein</h2>
+                        </div>
+                        <div class="monster">
+                            <img src="assets/images/ghost.svg" alt="ghost" />
+                            <h2>Fantôme</h2>
+                        </div>
+                        <div class="monster">
+                            <img src="assets/images/mummy.svg" alt="mummy" />
+                            <h2>Momie</h2>
+                        </div>
+                        <div class="monster">
+                            <img src="assets/images/skull.svg" alt="skull" />
+                            <h2>Squelette</h2>
+                        </div>
+                        <div class="monster">
+                            <img src="assets/images/zombie.svg" alt="zombie" />
+                            <h2>Zombie</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="number number-5">
+            <div class="wrapper">
+                <header class="number__header">
+                    <h2>Numéro 5 - Les sports - Gros défi</h2>
+                    <p>Mise en page de deux colonnes et deux rangés avec effet de survol (tp final CW II).</p>
+                    <img src="assets/images/screen_number5.gif" alt="capture du numéro 5" class="number__capture" />
+                    <h3>INDICATION</h3>
+                    <ul>
+                        <li class="full">❌ Vous n'avez pas le droit de mettre de width sur vos colonnes.</li>
+                        <li>
+                            <h4>HTML</h4>
+                            <ul>
+                                <li>Faire le html</li>
+                                <li>Le contenu vous est fourni</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Mise en page</h4>
+                            <ul>
+                                <li>2 colonnes avec la même largeur</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Images</h4>
+                            <ul>
+                                <li>l'image doit s'étirer de manière optimal (google : object-fit )</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>contenu</h4>
+                            <ul>
+                                <li>Pensez positionnement absolu</li>
+                                <li>Pleine largeur et hauteur</li>
+                                <li>background noir avec alpha 40%</li>
+                                <li>Apparait seulement en hover</li>
+                                <li>
+                                    h2
+                                    <ul>
+                                        <li>couleur: blanc</li>
+                                        <li>grandeur: 90px</li>
+                                        <li>text-shadow: 0px 0px 10px #969696;</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </header>
+                <div class="number__content">
+                    <div class="sports">
+                        <div class="sport">
+                            <img src="assets/images/sport1.jpg" alt="" />
+                            <div class="sport__content">
+                                <h2>Volleyball</h2>
+                            </div>
+                        </div>
+                        <div class="sport">
+                            <img src="assets/images/sport2.jpg" alt="" />
+                            <div class="sport__content">
+                                <h2>Natation</h2>
+                            </div>
+                        </div>
+                        <div class="sport">
+                            <img src="assets/images/sport3.jpg" alt="" />
+                            <div class="sport__content">
+                                <h2>Kayak</h2>
+                            </div>
+                        </div>
+                        <div class="sport">
+                            <img src="assets/images/sport4.jpg" alt="" />
+                            <div class="sport__content">
+                                <h2>Basketball</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
